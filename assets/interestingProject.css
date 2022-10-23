@@ -1,0 +1,83 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+.interestingProject-title-block{
+	font-size: 3.125em; 
+	color: white;
+	font-family: Sans-Thin;
+}
+
+
+.hope-you-enjoy{
+	height: 80px; 
+	color: white; 
+	font-size: 3.125em; 
+	font-family: Hoefler;
+	text-shadow: 
+		0 0 10px white;
+	opacity: 0%;
+}
+
+@keyframes hopeYouEnjoy{
+	0%{
+		opacity: 0%;
+	}
+	20%{
+		opacity: 100%;
+	}
+	100%{
+		opacity: 0%;
+	}
+}
+
+#wrapper {
+    width: 840px;
+    margin: 50px auto;
+}
+
+.light {
+    width: 5px;
+    height: 5px;
+    margin: 1px 1px;
+    text-align: center;
+    font-size: 0.9375em;
+    float: left;
+    border-radius: 50%;
+}
+.off {
+    background-color: #121212;
+}
+.on {
+    background-color: red;
+}
+
+@keyframes jump_out{
+	0%{
+		transform: scale(0.1);
+		transform: translateX(90%);
+	}
+	100%{
+		transform: translateX(0%);
+		transform: scale(1);
+	}
+}
+
+@keyframes height_ani{
+	0%{
+		height: 50px;
+	}
+	100%{
+		height: 150px;
+	}
+}
+
+@keyframes words_move{
+	0%{
+		left: 40%;
+	}
+	100%{
+		left: 15%;
+	}
+}

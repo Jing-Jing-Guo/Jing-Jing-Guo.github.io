@@ -1,0 +1,92 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@font-face{
+	font-family: "Trattatello";
+	src: url("../fonts/Trattatello.ttf") format("truetype"),
+		url("../fonts/Trattatello.svg") format("svg"),
+		url("../fonts/Trattatello.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face{
+	font-family: 'GameOver';
+	src: url("../fonts/game_over.ttf") format('truetype'),
+		url("../fonts/game_over.svg") format('svg'),
+		url("../fonts/game_over.woff") format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face{
+	font-family: 'Ubuntu-Medium';
+	src: url("../fonts/Ubuntu-M.ttf") format('truetype'),
+		url("../fonts/Ubuntu-M.svg") format('svg'),
+		url("../fonts/Ubuntu-M.woff") format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face{
+	font-family: 'Ubuntu-Thin';
+	src: url("../fonts/Ubuntu-Th.ttf") format('truetype'),
+		url("../fonts/Ubuntu-Th.svg") format('svg'),
+		url("../fonts/Ubuntu-Th.woff") format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face{
+	font-family: 'LiShu';
+	src: url("../fonts/lishu.ttf") format('truetype'),
+		url("../fonts/lishu.svg") format('svg'),
+		url("../fonts/lishu.woff") format('woff');
+	font-weight: normal;
+	font-style: normal;
+	
+}
+
+@font-face{
+	font-family: 'ArkHip';
+	src: url("../fonts/Arkhip_font.ttf") format("truetype"),
+		url("../fonts/Arkhip_font.svg") format("svg"),
+		url("../fonts/Arkhip_font.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face{
+	font-family: 'Apache';
+	src: url("../fonts/AldotheApache.svg") format("svg"),
+		url("../fonts/AldotheApache.ttf") format("truetype"),
+		url("../fonts/AldotheApache.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face{
+	font-family: 'Sans-Thin';
+	src: url("../fonts/Uni Sans Thin.ttf") format("truetype"),
+		url("../fonts/Uni-Sans-Thin.svg") format("svg"),
+		url("../fonts/Uni-Sans-Thin.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face{
+	font-family: 'Sans-Regular';
+	src: url("../fonts/Uni-Sans.svg") format("svg"),
+		url("../fonts/Uni Sans.ttf") format("truetype"),
+		url("../fonts/Uni-Sans.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face{
+	font-family: 'Hoefler';
+	src: url("../fonts/Hoefler-Text.svg") format("svg"),
+		url("../fonts/Hoefler Text.ttc") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}

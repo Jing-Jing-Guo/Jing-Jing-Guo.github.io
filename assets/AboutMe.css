@@ -1,0 +1,108 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.profile{
+	height: 0px;
+	background: linear-gradient(0deg, transparent, rgba(255, 255, 255, 0.1));
+	opacity: 0%;
+}
+
+.profile_titles{
+	height: 60px;
+	color: white;
+	font-family: Sans-Thin;
+	font-size: 3.125em;	
+}
+
+
+@keyframes profile_titles_glow{
+	0%{
+		box-shadow: 
+			0 0 10px white,
+			0 0 20px white,
+			inset 0 0 10px white,
+			0 0 20px white;
+	}
+	10%{
+		box-shadow: 
+			0 0 0px transparent;
+	}
+	40%{
+		box-shadow: 
+			0 0 10px white,
+			0 0 20px white,
+			0 0 30px white,
+			inset 0 0 10px white,
+			0 0 20px white,
+			0 0 30px white;
+	}
+	50%{
+		box-shadow: 
+			0 0 10px white,
+			0 0 20px white,
+			inset 0 0 10px white,
+			0 0 20px white;
+	}
+	100%{
+		box-shadow: 
+			0 0 10px white,
+			0 0 20px white,
+			0 0 30px white,
+			inset 0 0 10px white,
+			0 0 20px white,
+			0 0 30px white,
+			0 0 40px white;
+	}
+}
+
+@keyframes profile_shadow{
+	0%{
+		height: 200px;
+		opacity: 50%;
+	}
+	10%{
+		height: 0px;
+		opacity: 0%;
+	}
+	40%{
+		height: 300px;
+		opacity: 75%;
+	}
+	50%{
+		height: 200px;
+		opacity: 50%;
+	}
+	100%{
+		height: 400px;
+		opacity: 100%;
+	}
+}
+
+@keyframes PS-show{
+	0%{
+		opacity: 50%;
+	}
+	10%{
+		opacity: 0%;
+	}
+	40%{
+		opacity: 75%;
+	}
+	50%{
+		opacity: 50%;
+	}
+	100%{
+		opacity: 100%;
+	}
+}
+
+@keyframes profile_icon_glow{
+	50%{
+		text-shadow: 
+			0 0 10px white;
+	}
+	100%{
+		text-shadow: 
+			0 0 0px transparent;
+	}
+}
