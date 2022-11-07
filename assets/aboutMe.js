@@ -20,6 +20,9 @@ function iconGlow(id){
 	else if(id == "portfolio"){
 		document.getElementById("portfolio_text").style.animation = "appear forwards linear 0.5s";
 	}
+	else if(id == "github"){
+		document.getElementById("github_text").style.animation = "appear forwards linear 0.5s";
+	}
 }
 
 function iconNotGlow(id){
@@ -35,5 +38,8 @@ function iconNotGlow(id){
 	}
 	else if(id == "portfolio"){
 		document.getElementById("portfolio_text").style.animation = "disappear forwards linear 0.5s";
+	}
+	else if(id == "github"){
+		document.getElementById("github_text").style.animation = "disappear forwards linear 0.5s";
 	}
 }
