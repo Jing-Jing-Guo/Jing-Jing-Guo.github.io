@@ -64,3 +64,29 @@ function quoteDelay(){
 function recoBoxExpand(){
 	document.getElementById('recoBox').style.animation = "recoBox_expand forwards ease-in-out 1s";
 }
+
+
+function checkScrollHeightAndLoadAnimation_recoBox(){
+	let windowHeight = window.innerHeight;
+	let parentElement = document.getElementById("recoBox");
+	let parentOffsetTop = parentElement.offsetTop;
+
+	if(window.pageYOffset + windowHeight > parentOffsetTop + 100){
+		recoBoxExpand();
+	}
+}
+
+window.addEventListener('scroll', checkScrollHeightAndLoadAnimation_recoBox);
+
+
+function checkScrollHeightAndLoadAnimation_quote(){
+	let windowHeight = window.innerHeight;
+	let parentElement = document.getElementById("page2");
+	let parentOffsetTop = parentElement.offsetTop;
+
+	if(window.pageYOffset + windowHeight > parentOffsetTop + 300){
+		quoteMove();
+	}
+}
+
+window.addEventListener('scroll', checkScrollHeightAndLoadAnimation_quote);

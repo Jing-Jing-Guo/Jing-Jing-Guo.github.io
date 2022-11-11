@@ -43,3 +43,15 @@ function iconNotGlow(id){
 		document.getElementById("github_text").style.animation = "disappear forwards linear 0.5s";
 	}
 }
+
+function checkScrollHeightAndLoadAnimation_aboutMe(){
+	let windowHeight = window.innerHeight;
+	let parentElement = document.getElementById("page3");
+	let parentOffsetTop = parentElement.offsetTop;
+
+	if(window.pageYOffset + windowHeight > parentOffsetTop + 200){
+		aboutMeGlow();
+	}
+}
+
+window.addEventListener('scroll', checkScrollHeightAndLoadAnimation_aboutMe);
