@@ -9,18 +9,18 @@ function slideUp(id){
 }
 
 function orbitAppear(){
-	document.getElementById("orbit_1").style.animation = "orbit_ani_1 linear 15s infinite";
-	document.getElementById("orbit_2").style.animation = "orbit_ani_1 linear 15s infinite";
-	document.getElementById("orbit_3").style.animation = "orbit_ani_1 linear 15s infinite";
+	document.getElementById("orbit_1").style.animation = "orbit_ani_1 linear 5s infinite";
+	document.getElementById("orbit_2").style.animation = "orbit_ani_1 linear 5s infinite";
+	document.getElementById("orbit_3").style.animation = "orbit_ani_1 linear 5s infinite";
 	
-	document.getElementById("orbit_4").style.animation = "orbit_ani_2 linear 15s infinite";
-	document.getElementById("orbit_5").style.animation = "orbit_ani_2 linear 15s infinite";
+	document.getElementById("orbit_4").style.animation = "orbit_ani_2 linear 5s infinite";
+	document.getElementById("orbit_5").style.animation = "orbit_ani_2 linear 5s infinite";
 	
-	document.getElementById("orbit_6").style.animation = "orbit_ani_3 linear 15s infinite";
-	document.getElementById("orbit_7").style.animation = "orbit_ani_3 linear 15s infinite";
+	document.getElementById("orbit_6").style.animation = "orbit_ani_3 linear 5s infinite";
+	document.getElementById("orbit_7").style.animation = "orbit_ani_3 linear 5s infinite";
 	
 	document.getElementById("orbit_8").style.animation = "orbit_ani_4 linear 15s infinite";
-	document.getElementById("orbit_9").style.animation = "orbit_ani_4 linear 15s infinite";
+	document.getElementById("orbit_9").style.animation = "orbit_ani_4 linear 5s infinite";
 	
 	document.getElementById("orbit_1").style.animationDelay = "1s";
 	document.getElementById("orbit_2").style.animationDelay = "1s";
@@ -90,3 +90,35 @@ function checkScrollHeightAndLoadAnimation_quote(){
 }
 
 window.addEventListener('scroll', checkScrollHeightAndLoadAnimation_quote);
+
+function backToTopShow(){
+	document.getElementById("back-to-top").style.animation = "appear forwards ease-in-out 1s";
+}
+
+function checkScrollDown(){
+	let windowHeight = window.innerHeight;
+	let parentElement = document.getElementById("top");
+	let parentOffsetTop = parentElement.offsetTop;
+	
+	if(window.pageYOffset + windowHeight > parentOffsetTop + 400){
+		backToTopShow();
+	}
+}
+
+window.addEventListener('scroll', checkScrollDown);
+
+function backToTopDisappear(){
+	document.getElementById("back-to-top").style.animation = "disappear forwards ease-in-out 1s";
+}
+
+function checkIfTop(){
+	let windowHeight = window.innerHeight;
+	let parentElement = document.getElementById("top");
+	let parentOffsetTop = parentElement.offsetTop;
+	
+	if(window.pageYOffset + windowHeight > parentOffsetTop - 200){
+		backToTopDisappear();
+	}
+}
+
+window.addEventListener('scroll', checkIfTop);
