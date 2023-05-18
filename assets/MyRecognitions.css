@@ -13,6 +13,6 @@
 @keyframes recoBox_expand{
 	100%{
 		/*height最大可为650px*/
-		height: 550px;
+		height: 680px;
 	}
 }
