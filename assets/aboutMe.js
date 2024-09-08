@@ -8,7 +8,10 @@ function aboutMeGlow(){
 
 function iconGlow(id){
 	document.getElementById(id).style.animation = "profile_icon_glow infinite linear 1s";
-	if(id == "mailtome"){
+	if(id == "schoolweb"){
+		document.getElementById("schoolweb_text").style.animation = "appear forwards linear 0.5s";
+	}
+	else if(id == "mailtome"){
 		document.getElementById("mailtome_text").style.animation = "appear forwards linear 0.5s";
 	}
 	else if(id == "cv"){
@@ -27,7 +30,10 @@ function iconGlow(id){
 
 function iconNotGlow(id){
 	document.getElementById(id).style.animation = "";
-	if(id == "mailtome"){
+	if(id == "schoolweb"){
+		document.getElementById("schoolweb_text").style.animation = "disappear forwards linear 0.5s";
+	}
+	else if(id == "mailtome"){
 		document.getElementById("mailtome_text").style.animation = "disappear forwards linear 0.5s";
 	}
 	else if(id == "cv"){

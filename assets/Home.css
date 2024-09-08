@@ -634,13 +634,16 @@ h2{
 
 @keyframes spin{
 	to{
-		transform: rotate(1turn);
+		transform: rotate(0turn);
 	}
 }
 
 @keyframes spin-reverse{
-	from{
-		transform: rotate(1turn);
+	0%{
+		transform: translate(-50%, -50%) rotate(1turn);
+	}
+	100%{
+		transform: translate(-50%, -50%) rotate(0turn);
 	}
 }
 
