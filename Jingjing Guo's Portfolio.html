@@ -1,488 +1,151 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>Jingjing Guo's Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photography Portfolio</title>
+    <link rel="stylesheet" href="./assets/styles.css">
+	<link rel="stylesheet" href="./assets/Portfolio.css">
+	<link rel="stylesheet" href="./assets/fonts.css">
+	<link rel="stylesheet" href="./assets/fontawesome/css/brands.css">
+	<link rel="stylesheet" href="./assets/fontawesome/css/fontawesome.css">
+	<link rel="stylesheet" href="./assets/fontawesome/css/solid.css">
+	<script type="text/javascript" src="./assets/largeImg.js"></script>
 </head>
-<link rel="stylesheet" href="./assets/Portfolio.css">
-<link rel="stylesheet" href="./assets/fonts.css">
-<link rel="stylesheet" href="./assets/fontawesome/css/brands.css">
-<link rel="stylesheet" href="./assets/fontawesome/css/fontawesome.css">
-<link rel="stylesheet" href="./assets/fontawesome/css/solid.css">
-<script type="text/javascript" src="./assets/largeImg.js"></script>
-	
 <body>
-	<div style="height: 700px; width: 100%;" id="top">
-		<div style="height: 150px; width: 100%;">
-			<div class="centre">
-				<img alt="" src="imgs/DSCF0355.jpg" style="width: 100%; position: absolute; top: -250px;">
-			</div>
-		</div>
 
-	</div>
-	
-	<div class="header-words">
-		<div style="position: relative; left: 5%; top:15%; width: 35%;">
-			Jingjing Guo's portfolio. Hope you enjoy!
-		</div>
-		<div style="position: relative; width: 33%; left: 67%; top: -50%">
-		<a href="./index.html" style="color: white; text-decoration: none; cursor: pointer;">Home</a> &nbsp;&nbsp;&nbsp;&nbsp;
-		<span style="cursor: pointer;" onClick="goTo('latest')">Latest</span> &nbsp;&nbsp;&nbsp;&nbsp;
-		<span style="cursor: pointer;" onClick="goTo('animals')">Animals</span> &nbsp;&nbsp;&nbsp;&nbsp;
-		<span style="cursor: pointer;" onClick="goTo('scenery')">Scenery</span> &nbsp;&nbsp;&nbsp;&nbsp;
-		<span style="cursor: pointer;" onClick="goTo('portrait')">Portrait</span> &nbsp;&nbsp;&nbsp;&nbsp;
-		<span style="cursor: pointer;" onClick="goTo('other')">Other</span> 
-		</div>
-	</div>
-	
-	<div style="height: 200px; background: linear-gradient(0deg, black, black, transparent); position: relative; top: -200px;" id="latest">
-		<div style="color: white; font-size: 3.125em; font-family: Apache; position: relative; top: 0%;" class="centre">LATEST</div>
-	</div>
-	
-	<div class="centre">
-		<div style="background:#313131; height: 400px; width: 80%; position: relative; top: -300px;">
-			<div style="width: 25%; height: 80%; position: relative; top: 10%; left: 7%; background: rgba(13, 13, 13, 0.5);">
-				<br/><br/><div class="centre" style="color: white; font-family: Apache; font-size: 1.875em;">Autumn 2022</div><br/><br/>
-				<img alt="" src="./imgs/portfolio/DSC06881.jpg" style="width: 100%;" id="Img001" onClick="large('Img001')" class="open-img">
-			</div>
-			
-			<div style="width: 25%; height: 80%; position: relative; top: -70%; left: 37%; background: rgba(13, 13, 13, 0.5);">
-				<br/><br/><div class="centre" style="color: white; font-family: Apache; font-size: 1.875em;">Summer 2022</div><br/><br/>
-				<img alt="" src="./imgs/portfolio/DSC06146.jpg" style="width: 100%;" id="Img002" onClick="large('Img002')" class="open-img">
-			</div>
-			
-			<div style="width: 25%; height: 80%; position: relative; top: -150%; left: 67%; background: rgba(13, 13, 13, 0.5);">
-				<br/><br/><div class="centre" style="color: white; font-family: Apache; font-size: 1.875em;">Summer 2022</div><br/><br/>
-				<img alt="" src="./imgs/portfolio/DSC06147.jpg" style="width: 100%;" id="Img003" onClick="large('Img003')" class="open-img">
-			</div>
-		</div>
-	</div>
-	
-	<div style="height: 200px; background: linear-gradient(0deg, black, black, transparent); position: relative; top: -200px;">
-		<div style="color: white; font-size: 3.125em; font-family: Apache; position: relative; top: 0%;" class="centre">Browse by Category</div>
-	</div>
-	
-	<div class="centre">
-		<div class="centre" style="background:#313131; height: 2100px; width: 80%; position: relative; top: -300px;">
-			<div class="category-title-background" style="position: relative; top: 10px; width: 90%;">
-				<div class="category-title-words centre" id="animals">Animals</div>
-				
-				<div style="height: 20px; display: inline-block; width: 100%;"></div>
-				
-				<div style="width: 20px; display: inline-block;"></div>
-				<div class="pic-words" style="display: inline-block; position: relative; top: 20%; left: 0px; width: 30%; height: 600%; background: rgba(13, 13, 13, 0.5);">
-					<img alt="" src="./imgs/portfolio/DSC01522.JPG" style="width: 100%;" id="Img004" onClick="large('Img004')" class="open-img"> 
-					<span style="z-index: 1;">Winter 2021</span>
-				</div>
-				
-				<div style="width: 20px; display: inline-block;"></div>
-				<div class="pic-words" style="display: inline-block; position: relative; top: 20%; left: 0px; width: 30%; height: 600%; background: rgba(13, 13, 13, 0.5);">
-					<img alt="" src="imgs/portfolio/DSC04462.jpg" style="width: 100%;" id="Img005" onClick="large('Img005')" class="open-img"> 
-					<span style="z-index: 1;">Winter 2021</span>
-				</div>
-				
-				<div style="width: 20px; display: inline-block;"></div>
-				<div class="pic-words" style="display: inline-block; position: relative; top: 20%; left: 0px; width: 30%; height: 600%; background: rgba(13, 13, 13, 0.5);">
-					<img alt="" src="imgs/portfolio/DSC06146.jpg" style="width: 100%;" id="Img006" onClick="large('Img006')" class="open-img"> 
-					<span style="z-index: 1;">Summer 2022</span>
-				</div>
-				
-				<div style="height: 20px; display: inline-block; width: 100%;"></div>
-				
-				<div style="width: 50px; display: inline-block;"></div>
-				<div class="pic-words" style="display: inline-block; position: relative; top: 20%; left: 0px; width: 30%; height: 1200%; background: rgba(13, 13, 13, 0.5);">
-					<img alt="" src="imgs/portfolio/DSC01540.JPG" style="width: 100%;" id="Img007" onClick="large('Img007')" class="open-img"> 
-					<span style="z-index: 1;">Autumn 2021</span>
-				</div>
-				
-				<div style="width: 20px; display: inline-block;"></div>
-				<div class="pic-words" style="display: inline-block; position: relative; top: 20%; left: 0px; width: 30%; height: 1200%; background: rgba(13, 13, 13, 0.5);">
-					<img alt="" src="imgs/portfolio/IMG_8655 copy.JPG" style="width: 100%;" id="Img008" onClick="large('Img008')" class="open-img"> 
-					<span style="z-index: 1;">Spring 2021</span>
-				</div>
-				
-				<div style="width: 20px; display: inline-block;"></div>
-				<div class="pic-words" style="display: inline-block; position: relative; top: 20%; left: 0px; width: 25.3%; height: 1200%; background:  rgba(13, 13, 13, 0.5);">
-					<img alt="" src="imgs/portfolio/P1103900.jpg" style="width: 100%;" id="Img009" onClick="large('Img009')" class="open-img"> 
-					<span style="z-index: 1;">Spring 2021</span>
-				</div>
-				
-				<div style="height: 20px; display: inline-block; width: 100%;"></div>
-				
-				<div style="width: 20px; display: inline-block;"></div>
-				<div class="pic-words" style="display: inline-block; position: relative; top: 20%; left: 0px; width: 50%; height: 800%; background: rgba(13, 13, 13, 0.5);">
-					<img alt="" src="imgs/portfolio/IMG_4265.JPG" style="width: 100%;" id="Img010" onClick="large('Img010')" class="open-img"> 
-					<span style="z-index: 1;">Spring 2021</span>
-				</div>
-				
-				<div style="width: 20px; display: inline-block;"></div>
-				<div class="pic-words" style="display: inline-block; position: relative; top: 20%; left: 0px; width: 42.3%; height: 800%; background: rgba(13, 13, 13, 0.5);">
-					<img alt="" src="imgs/portfolio/DSC06147.jpg" style="width: 100%;" id="Img011" onClick="large('Img011')" class="open-img"> 
-					<span style="z-index: 1;">Summer 2022</span>
-				</div>
-				
-				<div style="height: 20px; display: inline-block; width: 100%;"></div>
-				
-				<div style="width: 8px; display: inline-block;"></div>
-				<div class="pic-words" style="display: inline-block; position: relative; top: 20%; left: 0px; width: 30%; height: 650%; background: rgba(13, 13, 13, 0.5);">
-					<img alt="" src="imgs/portfolio/P1103676-2.jpg" style="width: 100%;" id="Img012" onClick="large('Img012')" class="open-img"> 
-					<span style="z-index: 1;">Spring 2021</span>
-				</div>
+<header>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="header-content">
+        <h1>Jingjing's Photography Portfolio</h1>
+        <p>Capturing moments from around the world</p>
+    </div>
+</header>
 
-				<div style="width: 10px; display: inline-block;"></div>
-				<div class="pic-words" style="display: inline-block; position: relative; top: 20%; left: 0px; width: 35%; height: 650%; background: rgba(13, 13, 13, 0.5);">
-					<img alt="" src="imgs/portfolio/IMG_8650.JPG" style="width: 100%;" id="Img013" onClick="large('Img013')" class="open-img"> 
-					<span style="z-index: 1;">Spring 2021</span>
-				</div>
-				
-				<div style="width: 10px; display: inline-block;"></div>
-				<div class="pic-words" style="display: inline-block; position: relative; top: 20%; left: 0px; width: 30%; height: 650%; background: rgba(13, 13, 13, 0.5);">
-					<img alt="" src="imgs/portfolio/P1103690.jpg" style="width: 100%;" id="Img014" onClick="large('Img014')" class="open-img"> 
-					<span style="z-index: 1;">Spring 2021</span>
-				</div>
-				
-				<div style="height: 20px; display: inline-block; width: 100%;"></div>
-				
-				<div style="width: 50px; display: inline-block;"></div>
-				<div class="pic-words" style="display: inline-block; position: relative; top: 20%; left: 0px; width: 37%; height: 504%; background: rgba(13, 13, 13, 0.5);">
-					<img alt="" src="imgs/portfolio/DSC07057.jpg" style="width: 100%;" id="Img015" onClick="large('Img015')" class="open-img"> 
-					<span style="z-index: 1;">Summer 2019</span>
-				</div>
-				
-				<div style="width: 10px; display: inline-block;"></div>
-				<div class="pic-words" style="display: inline-block; position: relative; top: 20%; left: 0px; width: 25%; height: 500%; background: rgba(13, 13, 13, 0.5);">
-					<img alt="" src="imgs/portfolio/DSC01538.jpg" style="width: 100%;" id="Img016" onClick="large('Img016')" class="open-img"> 
-					<span style="z-index: 1;">Autumn 2021</span>
-				</div>
-				
-				<div style="width: 10px; display: inline-block;"></div>
-				<div class="pic-words" style="display: inline-block; position: relative; top: 20%; left: 0px; width: 25%; height: 495%; background: rgba(13, 13, 13, 0.5);">
-					<img alt="" src="imgs/portfolio/DSC06997.jpg" style="width: 100%;" id="Img017" onClick="large('Img017')" class="open-img"> 
-					<span style="z-index: 1;">Summer 2019</span>
-				</div>
-				
-			</div>
+<section id="gallery" class="gallery">
+    <h2>Gallery</h2>
+    <div class="image-container">
+		<img alt="" src="./imgs/portfolio/IMG_8655 copy.JPG" id="Img001" onClick="large('Img001')" class="open-img"> 
+		<img alt="" src="./imgs/portfolio/000048.PNG" id="Img002" onClick="large('Img002')" class="open-img"> 
+		<img alt="" src="./imgs/portfolio/P1010773.PNG" id="Img003" onClick="large('Img003')" class="open-img"> 
+		<img alt="" src="./imgs/portfolio/P1010764.PNG" id="Img004" onClick="large('Img004')" class="open-img">
+		
+		<img alt="" src="./imgs/portfolio/P1033756.jpg" id="Img005" onClick="large('Img005')" class="open-img">
+		<img alt="" src="./imgs/portfolio/000067.JPG" id="Img006" onClick="large('Img006')" class="open-img">
+		<img alt="" src="./imgs/portfolio/DSC06146.jpg" id="Img007" onClick="large('Img007')" class="open-img">
+		<img alt="" src="./imgs/portfolio/DSC02111.PNG" id="Img008" onClick="large('Img008')" class="open-img">
+		
+		<img alt="" src="./imgs/portfolio/IMG_4265.JPG" id="Img009" onClick="large('Img009')" class="open-img">
+		<img alt="" src="./imgs/portfolio/DSC01982.PNG" id="Img010" onClick="large('Img010')" class="open-img">
+		<img alt="" src="./imgs/portfolio/DSC06997.jpg" id="Img011" onClick="large('Img011')" class="open-img">
+		<img alt="" src="./imgs/portfolio/DSC01869.PNG" id="Img012" onClick="large('Img012')" class="open-img">
+		
+		<img alt="" src="./imgs/portfolio/000037.JPG" id="Img013" onClick="large('Img013')" class="open-img">
+		<img alt="" src="./imgs/portfolio/000050.jpg" id="Img014" onClick="large('Img014')" class="open-img">
+		<img alt="" src="./imgs/portfolio/P1034809.PNG" id="Img015" onClick="large('Img015')" class="open-img">
+		<img alt="" src="./imgs/portfolio/P1010664.PNG" id="Img016" onClick="large('Img016')" class="open-img">
+		
+		
+		<img alt="" src="./imgs/portfolio/P1023115.JPG" id="Img017" onClick="large('Img017')" class="open-img">
+		<img alt="" src="./imgs/portfolio/P1010724.PNG" id="Img018" onClick="large('Img018')" class="open-img">
+		<img alt="" src="./imgs/portfolio/IMG_8650.JPG" id="Img019" onClick="large('Img019')" class="open-img">
+		<img alt="" src="./imgs/portfolio/P1103676-2.jpg" id="Img020" onClick="large('Img020')" class="open-img">
+		
+		<img alt="" src="./imgs/portfolio/DSC02975.PNG" id="Img021" onClick="large('Img021')" class="open-img">
+		<img alt="" src="./imgs/portfolio/DSC02556.PNG" id="Img022" onClick="large('Img022')" class="open-img">
+		<img alt="" src="./imgs/portfolio/DSC01524_1.png" id="Img023" onClick="large('Img023')" class="open-img">
+		<img alt="" src="./imgs/portfolio/IMG_8621.JPG" id="Img024" onClick="large('Img024')" class="open-img">
+		
+		<img alt="" src="./imgs/portfolio/P1034842.PNG" id="Img025" onClick="large('Img025')" class="open-img">
+		<img alt="" src="./imgs/portfolio/P1010707.PNG" id="Img026" onClick="large('Img026')" class="open-img">
+		<img alt="" src="./imgs/portfolio/P1010710.PNG" id="Img027" onClick="large('Img027')" class="open-img">
+		<img alt="" src="./imgs/portfolio/DSC05402.jpg" id="Img028" onClick="large('Img028')" class="open-img">
+		
+		
+		<img alt="" src="./imgs/portfolio/DSC03588.PNG" id="Img029" onClick="large('Img029')" class="open-img">
+		<img alt="" src="./imgs/portfolio/000042.jpg" id="Img030" onClick="large('Img030')" class="open-img">
+		<img alt="" src="./imgs/portfolio/DSC09188.PNG" id="Img031" onClick="large('Img031')" class="open-img">
+		<img alt="" src="./imgs/portfolio/DSC03634.PNG" id="Img032" onClick="large('Img032')" class="open-img">
+		
+		
+		<img alt="" src="./imgs/portfolio/DSC02827.PNG" id="Img033" onClick="large('Img033')" class="open-img">
+		<img alt="" src="./imgs/portfolio/DSC03331.PNG" id="Img034" onClick="large('Img034')" class="open-img">
+		<img alt="" src="./imgs/portfolio/DSC02893.PNG" id="Img035" onClick="large('Img035')" class="open-img">
+		<img alt="" src="./imgs/portfolio/DSC02899.PNG" id="Img036" onClick="large('Img036')" class="open-img">
+		
+		<img alt="" src="./imgs/portfolio/IMG_8383.jpg" id="Img037" onClick="large('Img037')" class="open-img">
+		<img alt="" src="./imgs/portfolio/DSC00758.jpg" id="Img038" onClick="large('Img038')" class="open-img">
+		<img alt="" src="./imgs/portfolio/DSCF0381.jpg" id="Img039" onClick="large('Img039')" class="open-img">
+		<img alt="" src="./imgs/portfolio/IMG_8241.jpg" id="Img040" onClick="large('Img040')" class="open-img">
+		
+		<img alt="" src="./imgs/portfolio/DSC00330.PNG" id="Img041" onClick="large('Img041')" class="open-img">
+		<img alt="" src="./imgs/portfolio/P1036034.PNG" id="Img042" onClick="large('Img042')" class="open-img">
+		<img alt="" src="./imgs/portfolio/DSC07707.jpg" id="Img043" onClick="large('Img043')" class="open-img">
+		<img alt="" src="./imgs/portfolio/P1036497.PNG" id="Img044" onClick="large('Img044')" class="open-img">
+		
+		<img alt="" src="./imgs/portfolio/DSC05725.jpg" id="Img045" onClick="large('Img045')" class="open-img">
+		<img alt="" src="./imgs/portfolio/IMG_5397.jpg" id="Img046" onClick="large('Img046')" class="open-img">
+		<img alt="" src="./imgs/portfolio/000046.JPG" id="Img047" onClick="large('Img047')" class="open-img">
+		<img alt="" src="./imgs/portfolio/000058.JPG" id="Img048" onClick="large('Img048')" class="open-img">
+		
+		
+		<img alt="" src="./imgs/portfolio/DSC08934 copy.PNG" id="Img049" onClick="large('Img049')" class="open-img">
+		<img alt="" src="./imgs/portfolio/P1056966_bw.PNG" id="Img050" onClick="large('Img050')" class="open-img">
+		<img alt="" src="./imgs/portfolio/DSC01540.JPG" id="Img051" onClick="large('Img051')" class="open-img">
+		<img alt="" src="./imgs/portfolio/DSC09517.PNG" id="Img052" onClick="large('Img052')" class="open-img">
+		
+		
 			
-		</div>
-	</div>
-	<div class="centre">
-		<div class="centre" style="background:#313131; height: 4700px; width: 80%; position: relative; top: -300px;">
-			<div class="category-title-background" style="position: relative; top: 10px; width: 90%;">
-				<div class="category-title-words centre" id="scenery">Scenery</div> 
-				
-				<div style="height: 20px; display: inline-block; width: 100%;"></div>
-				
-				<div style="width: 280px; display: inline-block;"></div>
-				<div class="pic-words" style="display: inline-block; position: relative; top: 20%; left: 0px; width: 52.5%; height: 830%; background: rgba(13, 13, 13, 0.5);">
-					<img alt="" src="imgs/portfolio/DSC06881.jpg" style="width: 100%;" id="Img018" onClick="large('Img018')" class="open-img"> 
-					<span style="z-index: 1;">Autumn 2022</span>
-				</div>
-				
-				
-				<div style="height: 20px; display: inline-block; width: 100%;"></div>
-				
-				<div style="width: 25px; display: inline-block;"></div>
-				<div class="pic-words" style="display: inline-block; position: relative; top: 20%; left: 0px; width: 52.5%; height: 650%; background: rgba(13, 13, 13, 0.5);">
-					<img alt="" src="imgs/portfolio/DSC00776.jpg" style="width: 100%;" id="Img018" onClick="large('Img018')" class="open-img"> 
-					<span style="z-index: 1;">Summer 2021</span>
-				</div>
-				
-				<div style="width: 20px; display: inline-block;"></div>
-				<div class="pic-words" style="display: inline-block; position: relative; top: 20%; left: 0px; width: 40%; height: 650%; background: rgba(13, 13, 13, 0.5);">
-					<img alt="" src="imgs/portfolio/DSC05402.jpg" style="width: 100%;" id="Img019" onClick="large('Img019')" class="open-img"> 
-					<span style="z-index: 1;">Summer 2019</span>
-				</div>
-				
-				<div style="height: 20px; display: inline-block; width: 100%;"></div>
-								
-				<div style="width: 10px; display: inline-block;"></div>
-				<div class="pic-words" style="display: inline-block; position: relative; top: 20%; left: 0px; width: 42%; height: 670%; background: rgba(13, 13, 13, 0.5);">
-					<img alt="" src="imgs/portfolio/DSC06349.jpg" style="width: 100%;" id="Img020" onClick="large('Img020')" class="open-img">
-					<span style="z-index: 1;">Summer 2019</span>
-				</div>			
-				
-				<div style="width: 20px; display: inline-block;"></div>
-				<div class="pic-words" style="display: inline-block; position: relative; top: 20%; left: 0px; width: 35%; height: 670%; background: rgba(13, 13, 13, 0.5);">
-					<img alt="" src="imgs/portfolio/DSC04305.jpg" style="width: 100%;" id="Img021" onClick="large('Img021')" class="open-img"> 
-					<span style="z-index: 1;">Summer 2019</span>
-				</div>
-				
-				<div style="width: 20px; display: inline-block;"></div>
-				<div class="pic-words" style="display: inline-block; position: relative; top: 20%; left: 0px; width: 15.6%; height: 670%; background: rgba(13, 13, 13, 0.5);">
-					<img alt="" src="imgs/portfolio/DSC06227.JPG" style="width: 100%;" id="Img022" onClick="large('Img022')" class="open-img">
-					<span style="z-index: 1;">Autumn 2020</span>
-				</div>
-
-				
-				<div style="height: 20px; display: inline-block; width: 100%;"></div>
-				
-				<div style="width: 50px; display: inline-block;"></div>
-				<div class="pic-words" style="display: inline-block; position: relative; top: 20%; left: 0px; width: 90%; height: 690%; background: rgba(13, 13, 13, 0.5);">
-					<img alt="" src="imgs/portfolio/IMG_8471.jpg" style="width: 100%;" id="Img023" onClick="large('Img023')" class="open-img"> 
-					<span style="z-index: 1;">Autumn 2020</span>
-				</div>
-				
-				<div style="height: 20px; display: inline-block; width: 100%;"></div>
-				
-				<div style="width: 10px; display: inline-block;"></div>
-				<div class="pic-words" style="display: inline-block; position: relative; top: 20%; left: 0px; width: 40%; height: 650%; background: rgba(13, 13, 13, 0.5);">
-					<img alt="" src="imgs/portfolio/IMG_5320.jpg" style="width: 100%;" id="Img024" onClick="large('Img024')" class="open-img"> 
-					<span style="z-index: 1;">Summer 2019</span>
-				</div>
-				
-				<div style="width: 10px; display: inline-block;"></div>
-				<div class="pic-words" style="display: inline-block; position: relative; top: 20%; left: 0px; width: 15%; height: 650%; background: rgba(13, 13, 13, 0.5);">
-					<img alt="" src="imgs/portfolio/DSC00758.jpg" style="width: 100%;" id="Img025" onClick="large('Img025')" class="open-img"> 
-					<span style="z-index: 1;">Summer 2021</span>
-				</div>
-				
-				<div style="width: 10px; display: inline-block;"></div>
-				<div class="pic-words" style="display: inline-block; position: relative; top: 20%; left: 0px; width: 40%; height: 650%; background: rgba(13, 13, 13, 0.5);">
-					<img alt="" src="imgs/portfolio/IMG_4266.JPG" style="width: 100%;" id="Img026" onClick="large('Img026')" class="open-img"> 
-					<span style="z-index: 1;">Spring 2021</span>
-				</div>
-				
-				<div style="height: 20px; display: inline-block; width: 100%;"></div>
-				
-				<div style="width: 50px; display: inline-block;"></div>
-				<div class="pic-words" style="display: inline-block; position: relative; top: 20%; left: 0px; width: 90%; height: 900%; background: rgba(13, 13, 13, 0.5);">
-					<img alt="" src="imgs/portfolio/IMG_8497.jpg" style="width: 100%;" id="Img027" onClick="large('Img027')" class="open-img"> 
-					<span style="z-index: 1;">Autumn 2020 -- I was climbing over the snowy mountains!</span>
-				</div>
-				
-				<div style="height: 20px; display: inline-block; width: 100%;"></div>
-				
-				<div style="width: 7px; display: inline-block;"></div>
-				<div class="pic-words" style="display: inline-block; position: relative; top: 20%; left: 0px; width: 45%; height: 650%; background: rgba(13, 13, 13, 0.5);">
-					<img alt="" src="imgs/portfolio/IMG_8316.jpg" style="width: 100%;" id="Img028" onClick="large('Img028')" class="open-img"> 
-					<span style="z-index: 1;">Autumn 2020</span>
-				</div>
-				
-				<div style="width: 20px; display: inline-block;"></div>
-				<div class="pic-words" style="display: inline-block; position: relative; top: 20%; left: 0px; width: 34%; height: 650%; background: rgba(13, 13, 13, 0.5);">
-					<img alt="" src="imgs/portfolio/IMG_8442.jpg" style="width: 100%;" id="Img029" onClick="large('Img029')" class="open-img"> 
-					<span style="z-index: 1;">Autumn 2020</span>
-				</div>
-				
-				<div style="width: 20px; display: inline-block;"></div>
-				<div class="pic-words" style="display: inline-block; position: relative; top: 20%; left: 0px; width: 15%; height: 650%; background: rgba(13, 13, 13, 0.5);">
-					<img alt="" src="imgs/portfolio/IMG_8383.jpg" style="width: 100%;" id="Img030" onClick="large('Img030')" class="open-img"> 
-					<span style="z-index: 1;">Autumn 2020</span>
-				</div>
-				
-				<div style="height: 20px; display: inline-block; width: 100%;"></div>
-				
-				<div style="width: 25px; display: inline-block;"></div>
-				<div class="pic-words" style="display: inline-block; position: relative; top: 20%; left: 0px; width: 22%; height: 900%; background: rgba(13, 13, 13, 0.5);">
-					<img alt="" src="imgs/portfolio/IMG_8241.jpg" style="width: 100%;" id="Img031" onClick="large('Img031')" class="open-img"> 
-					<span style="z-index: 1;">Autumn 2020</span>
-				</div>
-				
-				
-				<div style="width: 20px; display: inline-block;"></div>
-				<div class="pic-words" style="display: inline-block; position: relative; top: 20%; left: 0px; width: 22%; height: 900%; background: rgba(13, 13, 13, 0.5);">
-					<img alt="" src="imgs/portfolio/IMG_9170.jpg" style="width: 100%;" id="Img032" onClick="large('Img032')" class="open-img"> 
-					<span style="z-index: 1;">Autumn 2021</span>
-				</div>
-				
-				<div style="width: 20px; display: inline-block;"></div>
-				<div class="pic-words" style="display: inline-block; position: relative; top: 20%; left: 0px; width: 22%; height: 900%; background: rgba(13, 13, 13, 0.5);">
-					<img alt="" src="imgs/portfolio/IMG_9178.JPG" style="width: 100%;" id="Img033" onClick="large('Img033')" class="open-img"> 
-					<span style="z-index: 1;">Autumn 2021</span>
-				</div>
-				
-				<div style="width: 20px; display: inline-block;"></div>
-				<div class="pic-words" style="display: inline-block; position: relative; top: 20%; left: 0px; width: 22%; height: 900%; background: rgba(13, 13, 13, 0.5);">
-					<img alt="" src="imgs/portfolio/IMG_9327.JPG" style="width: 100%;" id="Img034" onClick="large('Img034')" class="open-img"> 
-					<span style="z-index: 1;">Autumn 2021</span>
-				</div>
-				
-				<div style="height: 20px; display: inline-block; width: 100%;"></div>
-				
-				<div style="width: 100px; display: inline-block;"></div>
-				<div class="pic-words" style="display: inline-block; position: relative; top: 20%; left: 0px; width: 80%; height: 800%; background: rgba(13, 13, 13, 0.5);">
-					<img alt="" src="imgs/portfolio/IMG_8453.jpg" style="width: 100%;" id="Img035" onClick="large('Img035')" class="open-img"> 
-					<span style="z-index: 1;">Autumn 2020</span>
-				</div>
-				
-				<div style="height: 20px; display: inline-block; width: 100%;"></div>
-				
-				<div style="width: 50px; display: inline-block;"></div>
-				<div class="pic-words" style="display: inline-block; position: relative; top: 20%; left: 0px; width: 90%; height: 550%; background: rgba(13, 13, 13, 0.5);">
-					<img alt="" src="imgs/portfolio/IMG_8787_1.jpg" style="width: 100%;" id="Img036" onClick="large('Img036')" class="open-img"> 
-					<span style="z-index: 1;">Spring 2021</span>
-				</div>
-				
-				
-				<div style="height: 20px; display: inline-block; width: 100%;"></div>
-				
-				<div style="width: 50px; display: inline-block;"></div>
-				<div class="pic-words" style="display: inline-block; position: relative; top: 20%; left: 0px; width: 90%; height: 550%; background: rgba(13, 13, 13, 0.5);">
-					<img alt="" src="imgs/portfolio/IMG_8765_1.jpg" style="width: 100%;" id="Img037" onClick="large('Img037')" class="open-img"> 
-					<span style="z-index: 1;">Spring 2021</span>
-				</div>
-				
-				<div style="height: 20px; display: inline-block; width: 100%;"></div>
-				
-				<div style="width: 100px; display: inline-block;"></div>
-				<div class="pic-words" style="display: inline-block; position: relative; top: 20%; left: 0px; width: 80%; height: 750%; background: rgba(13, 13, 13, 0.5);">
-					<img alt="" src="imgs/portfolio/IMG_8621.JPG" style="width: 100%;" id="Img038" onClick="large('Img038')" class="open-img"> 
-					<span style="z-index: 1;">Spring 2021</span>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="centre">
-		<div class="centre" style="background:#313131; height: 1700px; width: 80%; position: relative; top: -300px;">
-			<div class="category-title-background" style="position: relative; top: 10px; width: 90%;">
-				<div class="category-title-words centre" id="portrait">Portrait</div>
-				
-				<div style="height: 20px; display: inline-block; width: 100%;"></div>
-				
-				<div style="width: 20px; display: inline-block;"></div>
-				<div class="pic-words" style="display: inline-block; position: relative; top: 20%; left: 0px; width: 30%; height: 600%; background: rgba(13, 13, 13, 0.5);">
-					<img alt="" src="imgs/portfolio/DSC03281.jpg" style="width: 100%;" id="Img039" onClick="large('Img039')" class="open-img"> 
-					<span style="z-index: 1;">Summer 2022</span>
-				</div>
-				
-				<div style="width: 20px; display: inline-block;"></div>
-				<div class="pic-words" style="display: inline-block; position: relative; top: 20%; left: 0px; width: 30%; height: 600%; background: rgba(13, 13, 13, 0.5);">
-					<img alt="" src="imgs/portfolio/DSC05990.jpg" style="width: 100%;" id="Img040" onClick="large('Img040')" class="open-img"> 
-					<span style="z-index: 1;">Spring 2022</span>
-				</div>
-				
-				<div style="width: 20px; display: inline-block;"></div>
-				<div class="pic-words" style="display: inline-block; position: relative; top: 20%; left: 0px; width: 30%; height: 600%; background: rgba(13, 13, 13, 0.5);">
-					<img alt="" src="imgs/portfolio/DSC06615.jpg" style="width: 100%;" id="Img041" onClick="large('Img041')" class="open-img"> 
-					<span style="z-index: 1;">Spring 2022</span>
-				</div>
-				
-				<div style="height: 20px; display: inline-block; width: 100%;"></div>
-				
-				<div style="width: 20px; display: inline-block;"></div>
-				<div class="pic-words" style="display: inline-block; position: relative; top: 20%; left: 0px; width: 30%; height: 600%; background: rgba(13, 13, 13, 0.5);">
-					<img alt="" src="imgs/portfolio/DSC07808.jpg" style="width: 100%;" id="Img042" onClick="large('Img042')" class="open-img"> 
-					<span style="z-index: 1;">Spring 2022</span>
-				</div>
-				
-				<div style="width: 20px; display: inline-block;"></div>
-				<div class="pic-words" style="display: inline-block; position: relative; top: 20%; left: 0px; width: 30%; height: 600%; background: rgba(13, 13, 13, 0.5);">
-					<img alt="" src="imgs/portfolio/DSC07849.jpg" style="width: 100%;" id="Img043" onClick="large('Img043')" class="open-img"> 
-					<span style="z-index: 1;">Spring 2022</span>
-				</div>
-				
-				<div style="width: 20px; display: inline-block;"></div>
-				<div class="pic-words" style="display: inline-block; position: relative; top: 20%; left: 0px; width: 30%; height: 600%; background: rgba(13, 13, 13, 0.5);">
-					<img alt="" src="imgs/portfolio/DSC05725.jpg" style="width: 100%;" id="Img044" onClick="large('Img044')" class="open-img"> 
-					<span style="z-index: 1;">Spring 2022</span>
-				</div>
-				
-				<div style="height: 20px; display: inline-block; width: 100%;"></div>
-				
-				<div style="width: 60px; display: inline-block;"></div>
-				<div class="pic-words" style="display: inline-block; position: relative; top: 20%; left: 0px; width: 20%; height: 850%; background: rgba(13, 13, 13, 0.5);">
-					<img alt="" src="imgs/portfolio/DSC05585.jpg" style="width: 100%;" id="Img045" onClick="large('Img045')" class="open-img"> 
-					<span style="z-index: 1;">Autumn 2020</span>
-				</div>
-				
-				<div style="width: 20px; display: inline-block;"></div>
-				<div class="pic-words" style="display: inline-block; position: relative; top: 20%; left: 0px; width: 20%; height: 850%; background: rgba(13, 13, 13, 0.5);">
-					<img alt="" src="imgs/portfolio/DSC06543.jpg" style="width: 100%;" id="Img046" onClick="large('Img046')" class="open-img"> 
-					<span style="z-index: 1;">Spring 2022</span>
-				</div>
-				
-				<div style="width: 20px; display: inline-block;"></div>
-				<div class="pic-words" style="display: inline-block; position: relative; top: 20%; left: 0px; width: 20%; height: 850%; background: rgba(13, 13, 13, 0.5);">
-					<img alt="" src="imgs/portfolio/DSC07707.jpg" style="width: 100%;" id="Img047" onClick="large('Img047')" class="open-img"> 
-					<span style="z-index: 1;">Spring 2022</span>
-				</div>
-				
-				<div style="width: 20px; display: inline-block;"></div>
-				<div class="pic-words" style="display: inline-block; position: relative; top: 20%; left: 0px; width: 20%; height: 850%; background: rgba(13, 13, 13, 0.5);">
-					<img alt="" src="imgs/portfolio/IMG_6652-1.jpg" style="width: 100%;" id="Img048" onClick="large('Img048')" class="open-img"> 
-					<span style="z-index: 1;">Spring 2020</span>
-				</div>
-				
-				<div style="height: 20px; display: inline-block; width: 100%;"></div>
-				<div style="width: 50px; display: inline-block;"></div>
-				<div class="pic-words" style="display: inline-block; position: relative; top: 20%; left: 0px; width: 45%; height: 850%; background: rgba(13, 13, 13, 0.5);">
-					<img alt="" src="imgs/portfolio/DSC00065-1.JPG" style="width: 100%;" id="Img049" onClick="large('Img049')" class="open-img"> 
-					<span style="z-index: 1;">Autumn 2019</span>
-				</div>
-				
-				<div style="width: 20px; display: inline-block;"></div>
-				<div class="pic-words" style="display: inline-block; position: relative; top: 20%; left: 0px; width: 20%; height: 850%; background: rgba(13, 13, 13, 0.5);">
-					<img alt="" src="imgs/portfolio/IMG_4264.JPG" style="width: 100%;" id="Img050" onClick="large('Img050')" class="open-img"> 
-					<span style="z-index: 1;">Winter 2021</span>
-				</div>
-				
-				<div style="width: 20px; display: inline-block;"></div>
-				<div class="pic-words" style="display: inline-block; position: relative; top: 20%; left: 0px; width: 20%; height: 850%; background: rgba(13, 13, 13, 0.5);">
-					<img alt="" src="imgs/portfolio/IMG_8446.jpg" style="width: 100%;" id="Img051" onClick="large('Img051')" class="open-img"> 
-					<span style="z-index: 1;">Autumn 2020</span>
-				</div>
-			</div>
-		</div>
-	</div>
-	
-	<div class="centre" style="height: 200px;">
-		<div class="centre" style="background:#313131; height: 700px; width: 80%; position: relative; top: -300px;">
-			<div class="category-title-background" style="position: relative; top: 10px; width: 90%;">
-				<div class="category-title-words centre" id="other">Other</div>
-								
-				<div style="height: 20px; display: inline-block; width: 100%;"></div>
-				
-				<div style="width: 20px; display: inline-block;"></div>
-				<div class="pic-words" style="display: inline-block; position: relative; top: 20%; left: 0px; width: 30%; height: 550%; background: rgba(13, 13, 13, 0.5);">
-					<img alt="" src="imgs/portfolio/DSC06742.JPG" style="width: 100%;" id="Img051-1" onClick="large('Img051-1')" class="open-img"> 
-					<span style="z-index: 1;">Summer 2019</span>
-				</div>
-				
-				<div style="width: 20px; display: inline-block;"></div>
-				<div class="pic-words" style="display: inline-block; position: relative; top: 20%; left: 0px; width: 30%; height: 550%; background: rgba(13, 13, 13, 0.5);">
-					<img alt="" src="imgs/portfolio/DSC07117.jpg" style="width: 100%;" id="Img052" onClick="large('Img052')" class="open-img"> 
-					<span style="z-index: 1;">Summer 2019</span>
-				</div>
-				
-				<div style="width: 20px; display: inline-block;"></div>
-				<div class="pic-words" style="display: inline-block; position: relative; top: 20%; left: 0px; width: 30%; height: 550%; background: rgba(13, 13, 13, 0.5);">
-					<img alt="" src="imgs/portfolio/IMG_4832.jpg" style="width: 100%;" id="Img053" onClick="large('Img053')" class="open-img"> 
-					<span style="z-index: 1;">Summer 2019</span>
-				</div>
-				
-				<div style="height: 20px; display: inline-block; width: 100%;"></div>
-				
-				<div style="width: 10px; display: inline-block;"></div>
-				<div class="pic-words" style="display: inline-block; position: relative; top: 20%; left: 0px; width: 33.5%; height: 600%; background: rgba(13, 13, 13, 0.5);">
-					<img alt="" src="imgs/portfolio/IMG_4847.jpg" style="width: 100%;" id="Img054" onClick="large('Img054')" class="open-img"> 
-					<span style="z-index: 1;">Summer 2019</span>
-				</div>
-				
-				<div style="width: 2px; display: inline-block;"></div>
-				<div class="pic-words" style="display: inline-block; position: relative; top: 20%; left: 0px; width: 28%; height: 600%; background: rgba(13, 13, 13, 0.5);">
-					<img alt="" src="imgs/portfolio/IMG_5193.jpg" style="width: 100%;" id="Img055" onClick="large('Img055')" class="open-img"> 
-					<span style="z-index: 1;">Summer 2019</span>
-				</div>
-				
-				<div style="width: 5px; display: inline-block;"></div>
-				<div class="pic-words" style="display: inline-block; position: relative; top: 20%; left: 0px; width: 33.5%; height: 600%; background: rgba(13, 13, 13, 0.5);">
-					<img alt="" src="imgs/portfolio/IMG_5397.jpg" style="width: 100%;" id="Img056" onClick="large('Img056')" class="open-img"> 
-					<span style="z-index: 1;">Summer 2019</span>
-				</div>
-				
-			</div>
-		</div>
-	</div>
-	<div style="transform: scale(0.5);">
-		<script type="text/javascript" id="clustrmaps" src="//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=a&t=n&d=jlUO_xXSnGzlk3tMVxp_nHBL9ax0BNvaHteS_iKvTII&co=000000&cmo=8a53ff&cmn=f0943f"></script>
-	</div>
-	<div class="centre" style="color: white; position: relative; font-family: Ubuntu-Thin;">
-		&copy;copyright reserved by Jingjing Guo, 2023
-	</div>
+		<img alt="" src="./imgs/portfolio/IMG_8497.jpg" id="Img053" onClick="large('Img053')" class="open-img">
+		<img alt="" src="./imgs/portfolio/IMG_8471.jpg" id="Img054" onClick="large('Img054')" class="open-img">
+		<img alt="" src="./imgs/portfolio/IMG_8453.jpg" id="Img055" onClick="large('Img055')" class="open-img">
+		<img alt="" src="./imgs/portfolio/IMG_8316.jpg" id="Img056" onClick="large('Img056')" class="open-img">
+		
+		
+		
+		
+		
+    </div>
 	<div class="bigger" id="large-block">
 		<i class="fa-solid fa-close" style="color: white; font-size: 1.875em; position: fixed; top: 8%; left: 92%; z-index: 3; cursor: pointer;" onclick="document.getElementById('large-block').style.display='none'"></i>
 		<img alt="" class="content" id="img">
 	</div>
-	<i class="fa-solid fa-chevron-up" style="color: rgba(200, 200, 200, 0.8); font-size: 1.875em; position: fixed; bottom: 10px; right: 10px; cursor: pointer;" onClick="goTo('top')"></i>
+</section>
+
+<section id="about" class="about">
+    <h2>About Me</h2>
+    <p>Hey! It's Jingjing here. I am a PhD student at University of Glasgow. For more information about my research, please see <a href="index.html" style="color: inherit; text-decoration: underline">my research homepage</a>. I am so passionate about photography and I seriously consider it as my second career (or maybe first!). Hope you enjoyed your journey!</p>
+</section>
+
+<section id="contact" class="contact">
+    <h2>Contact</h2>
+    <form action="./assets/send_email.php" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+        
+		<button type="submit">Send Message</button>
+    </form>
+</section>
+
+<footer>
+	<div style="width: 5px;  display: flex; opacity: 0%">
+		<script type="text/javascript" id="clustrmaps" src="//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=a&t=n&d=jlUO_xXSnGzlk3tMVxp_nHBL9ax0BNvaHteS_iKvTII&co=000000&cmo=8a53ff&cmn=f0943f"></script>
+	</div>
+    <p>&copy; 2025 Jingjing Guo | All Rights Reserved</p>
+</footer>
+
 </body>
 </html>
